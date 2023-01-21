@@ -51,7 +51,7 @@ const start = () => {
     }
   };
 
-  setInterval(timerFunc, 10);
+  setInterval(timerFunc, 1000);
 };
 
 startButton.addEventListener("click", start);
